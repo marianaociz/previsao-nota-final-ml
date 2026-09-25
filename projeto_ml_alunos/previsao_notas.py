@@ -1,18 +1,3 @@
-"""
-Previsão de Nota Final de Alunos com Machine Learning
-Integrantes: Mariana Ocireu e Rebeca Matewanga
-
-Este script:
-1. Gera uma base de dados fake de alunos (horas de estudo, frequência,
-   atividades entregues, nota anterior -> nota final).
-2. Treina um modelo de Regressão Linear para prever a nota final.
-3. Calcula métricas de erro: MAE, RMSE, desvio padrão dos erros e
-   intervalo de confiança (95%) do erro.
-4. Gera gráficos: dispersão real vs. previsto, distribuição dos erros
-   (resíduos) e importância das variáveis (coeficientes).
-5. Imprime uma interpretação automática dos resultados.
-"""
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
